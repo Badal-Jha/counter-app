@@ -83,7 +83,7 @@ class Counter extends Component {
     // return this.state.value===0?"zero":this.state.value;
     //distructing
     const { value } = this.props.counter;
-    return value === 0 ? "Zero" : value;
+    return value === 0 ? "zero" : value;
   }
 }
 
